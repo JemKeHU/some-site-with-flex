@@ -9,6 +9,14 @@ body {
     background-image: url(images/edb4028fc08746c_730x400.png);
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100vh;
+}
+
 .content {
     display: flex;
     background-color: whitesmoke;
@@ -16,8 +24,6 @@ body {
     width: 50;
     border: 1px solid brown;
     border-radius: 10px;
-    height: 100vh;
-    flex: 1;
 }
 
 .inner-content {
